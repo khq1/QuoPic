@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-*{
-    background-color:;
-}
+
 
 body {margin:0px;
     height:100vh;
@@ -19,20 +17,17 @@ background-color:black;
 background-repeat: no-repeat;
 background-size: auto;
 color:black;
-padding-top:;
+
 font-size:1.5rem;
 text-align: center;
 text-shadow: 10px 10px 10px black;
 text-shadow: 20px 2px 20px white;
-padding:
-font-family: 'Roboto', sans-serif;
-}
+
+font-family:'Roboto', sans-serif;}
 .text_box{position:relative ;
     top:55vh;
     height:auto;
-width: ;
-background-color:;
-/*background:url("https://picsum.photos/400/600?random=1");*/
+width: 100vw;
 background-repeat: no-repeat;
 background-size: auto;
 color:white;
@@ -41,7 +36,7 @@ font-size:1.5rem;
 text-align: center;
 
 padding:0px;
-font-family:"roboto", courier,arial,helvetica;"
+font-family:"roboto", courier,arial,helvetica;
 background:
 
 rgba( 255, 255, 255, 0.25 );
@@ -59,4 +54,4 @@ border-radius:
 10px;
 border:
 
-1px solid rgba( 255, 255, 255, 0.18 );
+1px solid rgba( 255, 255, 255, 0.18 );}
