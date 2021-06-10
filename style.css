@@ -20,6 +20,7 @@ text-shadow: 20px 2px 20px white;
 font-family: 'Roboto', sans-serif;
 background-position:cover;
 text-align: center;
+justify-content: center;
 }
 
 .text_box{position:absolute ;
