@@ -1,57 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
-
-
-body {margin:0px;
-    height:100vh;
-width:100vw;
+*{
+        margin:0;
+}
+body {
 background-color:black;
-
 }
 
-.tlo{   
-height:100vh;
-width:100vw;
-position:absolute;
-background-color:black;
-/*background:url("https://picsum.photos/400/600?random=1");*/
-background-repeat: no-repeat;
-background-size: auto;
-color:black;
 
-font-size:1.5rem;
+.tlo{    
+height:100%;
+width:100%;
+position:absolute;
+background-color:black; /*background:url("https://picsum.photos/400/600?random=1");*/
+background-size: auto, auto;
+color:black;
 text-align: center;
 text-shadow: 10px 10px 10px black;
 text-shadow: 20px 2px 20px white;
+font-family: 'Roboto', sans-serif;
+background-position:cover;
+}
 
-font-family:'Roboto', sans-serif;}
-.text_box{position:relative ;
-    top:55vh;
-    height:auto;
-width: 100vw;
-background-repeat: no-repeat;
-background-size: auto;
-color:white;
-
-font-size:1.5rem;
+.text_box{position:absolute ;
+bottom:5vh;
+height:auto;
 text-align: center;
-
+text-shadow: 5px 5px 15px black;
+/*text-shadow: 2px 2px 2px white;*/
+text-align: center;
+color:white;
 padding:0px;
 font-family:"roboto", courier,arial,helvetica;
-background:
-
-rgba( 255, 255, 255, 0.25 );
-box-shadow:
-
-0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter:
-
-blur( 4px );
--webkit-backdrop-filter:
-
-blur( 4px );
-border-radius:
-
-10px;
-border:
-
-1px solid rgba( 255, 255, 255, 0.18 );}
+background:rgba( 128, 128, 128, 0.25);
+box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter:blur( 10px );
+-webkit-backdrop-filter:blur( 10px );
+font-size:1.5rem;
+border-radius:10px;
+border:1px solid rgba( 255, 255, 255, 0.18 );
+-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+/*text-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37;*/
+}
