@@ -19,6 +19,7 @@ text-shadow: 10px 10px 10px black;
 text-shadow: 20px 2px 20px white;
 font-family: 'Roboto', sans-serif;
 background-position:cover;
+text-align: center;
 }
 
 .text_box{position:absolute ;
@@ -28,7 +29,7 @@ align-items: center;
 text-align: center;
 text-shadow: 5px 5px 15px black;
 /*text-shadow: 2px 2px 2px white;*/
-text-align: center;
+
 color:white;
 padding:0px;
 font-family:"roboto", courier,arial,helvetica;
