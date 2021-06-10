@@ -19,6 +19,7 @@ text-shadow: 10px 10px 10px black;
 text-shadow: 20px 2px 20px white;
 font-family: 'Roboto', sans-serif;
 background-position:cover;
+display: flex;
 text-align: center;
 justify-content: center;
 }
