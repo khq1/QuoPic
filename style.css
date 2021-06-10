@@ -24,6 +24,7 @@ background-position:cover;
 .text_box{position:absolute ;
 bottom:5vh;
 height:auto;
+align-items: center;
 text-align: center;
 text-shadow: 5px 5px 15px black;
 /*text-shadow: 2px 2px 2px white;*/
