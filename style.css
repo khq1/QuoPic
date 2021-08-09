@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400&display=swap');
 *{
         margin:0;
 }
@@ -11,7 +11,7 @@ background-color:black;
 height:100%;
 width:100%;
 position:absolute;
-background-color:black; /*background:url("https://picsum.photos/400/600?random=1");*/
+background-color:black; 
 background-size: auto, auto;
 color:black;
 text-align: center;
@@ -26,13 +26,15 @@ justify-content: center;
 
 .text_box{position:absolute ;
 bottom:5vh;
+right:10%;
+left:10%;
 height:auto;
 align-items: center;
 text-align: center;
 text-shadow: 5px 5px 15px black;
 /*text-shadow: 2px 2px 2px white;*/
 
-color:white;
+color:black;
 padding:0px;
 font-family:"roboto", courier,arial,helvetica;
 background:rgba( 128, 128, 128, 0.25);
