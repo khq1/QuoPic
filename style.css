@@ -2,16 +2,16 @@
 *{
         margin:0;
 }
+
 body {
-background-color:black;
-}
+        font-size:calc(0.75em+1vmin);}
+        
 
 
 .tlo{    
 height:100%;
 width:100%;
 position:absolute;
-background-color:black; 
 background-size: auto, auto;
 color:black;
 text-align: center;
@@ -21,6 +21,22 @@ background-position:cover;
 display: flex;
 text-align: center;
 justify-content: center;
+background: linear-gradient(-45deg, #52ee6c, #e73c7e, #27d9df, #d2e622);
+	background-size: 400% 400%;
+	animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 }
 
 .text_box{position:absolute ;
@@ -38,15 +54,9 @@ background:rgba( 128, 128, 128, 0.1);
 box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.5 );
 backdrop-filter:blur( 3px );
 -webkit-backdrop-filter:blur( 3px );
-font-size:2em;
 border-radius:10px;
 border:1px solid rgba( 255, 255, 255, 0.18 );
 -webkit-box-shadow: 2px 3px 10px 5px #000000; 
 box-shadow: 2px 3px 10px 5px #000000;
 /*text-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37;*/
-}
-@media only screen and (max-width: 600px) {
-  .text_box {
-          font-size:3em;
-  }
 }
