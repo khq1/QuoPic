@@ -4,7 +4,8 @@
 }
 
 body {
-        font-size:calc(0.75em+1vmin);}
+        font-size:calc(0.75em+1vmin);
+}
         
 
 
@@ -36,7 +37,6 @@ background: linear-gradient(-45deg, #52ee6c, #e73c7e, #27d9df, #d2e622);
 	100% {
 		background-position: 0% 50%;
 	}
-}
 }
 
 .text_box{position:absolute ;
