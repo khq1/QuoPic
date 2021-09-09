@@ -4,7 +4,7 @@
 }
 
 body {
-        font-size:calc(1em+1vmin);
+    /*   font-size:calc(0.75em+1vmin);*/
 }
         
 
@@ -46,7 +46,7 @@ left:10%;
 height:auto;
 align-items: center;
 text-align: center;
-
+font-size: large;
 text-shadow: 5px 5px 5px white;
 text-shadow: 2px 2px 2px black;
 color:rgb(255, 255, 255);
