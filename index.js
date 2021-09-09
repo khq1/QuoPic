@@ -1,7 +1,7 @@
 window.onload = getimageandtext
 function getimageandtext(){fetch ('https://api.quotable.io/random') .then(response => response.json()) 
 .then( data =>{ 
-document.getElementById("text_box").innerHTML = `<h1>${data.content} <br><br><i>${data.author}`
+document.getElementById("text_box").innerHTML = `<h2>${data.content} <br><br><i>${data.author}</h>`
 var msg = new SpeechSynthesisUtterance();
 var voices = window.speechSynthesis.getVoices();
 msg.voice = voices[10]; // Note: some voices don't support altering params

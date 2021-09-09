@@ -24,7 +24,7 @@ text-align: center;
 justify-content: center;
 background: linear-gradient(-45deg, #52ee6c, #e73c7e, #27d9df, #d2e622);
 	background-size: 400% 400%;
-	animation: gradient 4s ease infinite;
+	animation: gradient 14s ease infinite;
 }
 
 @keyframes gradient {
@@ -60,4 +60,15 @@ border:1px solid rgb(255, 255, 255);
 -webkit-box-shadow: 2px 3px 7px 1px #000000d0; 
 /*box-shadow: 2px 3px 5px 3px #000000;*/
 /*text-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37;*/
+}
+
+.ico_button_read{
+	position:absolute ;
+right:10px;
+bottom:10px;
+height: 50px;
+width: 50px;
+
+filter: invert(1);
+
 }
