@@ -7,7 +7,7 @@
 height:100%;
 width:100%;
 position:absolute;
-font-size: 3vw;
+
 background-size: auto, auto;
 color:black;
 text-align: center;
@@ -15,8 +15,8 @@ background-position:cover;
 display: flex;
 text-align: center;
 justify-content: center;
-background: linear-gradient(-45deg, #52ee6c, #e73c7e, #27d9df, #d2e622);
-	background-size: 100% 100%;
+background: linear-gradient(-45deg, #52ee6c, #be6587, #27d9df, #d2e622);
+	background-size: 400% 400%;
 	animation: gradient 14s ease infinite;
 }
 
@@ -38,7 +38,7 @@ bottom:5vh;
 right:10%;
 left:10%;
 height:auto;
-
+font-size: 3vw;
 align-items: center;
 text-align: center;
 text-shadow: 5px 5px 5px white;
@@ -56,18 +56,17 @@ border:1px solid rgb(255, 255, 255);
 /*text-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37;*/
 }
 
-
+@media only screen and (max-width: 600px) {
+  .text_box {
+    font-size: 24px;
+  }
+}
 .speak{
-position:absolute ;
+position:absolute;
 right:10px;
 bottom:10px;
-height: 50px;
-width: 50px;
+height: 20px;
+width: 20px;
 
-border-radius:50px;
--webkit-box-shadow: 2px 3px 7px 1px #000000d0;
-box-shadow: 2px 3px 7px 1px #000000d0;
-}
-.speak:hover{
-	box-shadow:0 8px 32px 0 rgba( 31, 38, 135, 0.5 );
+
 }
