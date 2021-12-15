@@ -1,17 +1,4 @@
 window.onload = getimageandtext;
-var elem = document.getElementById("background");
-function openFullscreen() {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) {
-    /* Safari */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) {
-    /* IE11 */
-    elem.msRequestFullscreen();
-  }
-}
-
 function getimageandtext() {
   //get quotes
   fetch("https://api.quotable.io/random")
@@ -49,8 +36,8 @@ function getimageandtext() {
       getBGimage();
 
       document
-        .getElementById("background")
-        .addEventListener("click", speechSynthesis.speak(msg)); //speak Quotes
+      .getElementById("background")
+        .addEventListener("click", speechSynthesis.speak(msg)); //speak quotes
     });
 }
 
