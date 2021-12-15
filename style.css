@@ -22,11 +22,11 @@ body {
   font-size: 32px;
   font-weight: 200;
   text-align: center;
-  text-shadow: 3px 2px 3px #f1f1f1;
-  text-shadow: 1px 1px 1px #0a0a0a;
+  
+  text-shadow: 3px 3px 3px #000000;
   color: #ffffff;
   font-family: "roboto", courier, arial, helvetica;
-  background: #8080800d;
+  background: #6b6b6b28;
   box-shadow: 2px 3px 7px 1px #000000d0;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
