@@ -1,15 +1,12 @@
 # QuoPic
 
-This is a coding practise project.
+This is a coding practice project.
 
-
-#See it here: 
+# See it here: 
 
 https://khq1.github.io/QuoPic/
 
-
-
-3Used APIs:
+ APIs:
 
 https://quotable.io 
 

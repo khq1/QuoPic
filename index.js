@@ -14,7 +14,7 @@ function getimageandtext() {
       msg.voiceURI = "Google US English";
       msg.volume = 1; // 0 to 1
       msg.rate = 1.05; // 0.1 to 10
-      msg.pitch = 0.4; //0 to 2
+      msg.pitch = 0.8; //0 to 2
       msg.text = `${data.content} ${data.author}`;
       msg.lang = "en-US";
 
